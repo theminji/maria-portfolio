@@ -1,10 +1,7 @@
 import { next } from '@vercel/functions'
-import fs from 'node:fs'
+import { portfolioText } from './portfolioText'
 
-const portfolioText = fs.readFileSync(
-  new URL('./portfolio.ansi', import.meta.url),
-  'utf8',
-).trimEnd()
+const responseText = portfolioText.replace(/^\uFEFF/, '')
 
 const isCliRequest = (userAgent: string | null) =>
   /(?:curl|wget|httpie)/i.test(userAgent ?? '')
@@ -23,7 +20,7 @@ export default function middleware(request: Request) {
   }
 
   return new Response(
-    request.method === 'HEAD' ? null : `${portfolioText}\n`,
+    request.method === 'HEAD' ? null : `${responseText}\n`,
     {
       headers: {
         'content-type': 'text/plain; charset=utf-8',

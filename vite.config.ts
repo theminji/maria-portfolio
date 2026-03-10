@@ -7,7 +7,8 @@ import path from 'node:path'
 import fs from 'node:fs'
 
 const portfolioTextPath = path.resolve(__dirname, 'portfolio.ansi')
-const renderPortfolioText = () => fs.readFileSync(portfolioTextPath, 'utf8').trimEnd()
+const renderPortfolioText = () =>
+  fs.readFileSync(portfolioTextPath, 'utf8').replace(/^\uFEFF/, '').trimEnd()
 
 const isCliRequest = (req: IncomingMessage) => {
   const userAgent = req.headers['user-agent'] ?? ''
