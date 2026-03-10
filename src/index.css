@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap");
+@import "tailwindcss";
+
+:root {
+  --page-pink: #6f3351;
+}
+
+body {
+  margin: 0;
+  color: var(--page-pink);
+}
+
+.font-lexend {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.margin-title {
+  margin-bottom: 5vh;
+}
+
+@keyframes card-float {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 8px 30px rgba(244, 114, 182, 0.18);
+  }
+  50% {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 34px rgba(244, 114, 182, 0.22);
+  }
+}
+
+.animate-card-float {
+  animation: card-float 6.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-name-drift,
+  .animate-card-float {
+    animation: none;
+  }
+}
