@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  const command = 'curl -s https://airamx112.com'
+  const command = 'curl -s -L https://airamx112.com'
   const [copied, setCopied] = useState(false)
 
   const handleCopy = async () => {

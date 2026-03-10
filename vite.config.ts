@@ -3,49 +3,11 @@ import type { Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import type { IncomingMessage, ServerResponse } from 'node:http'
-import { execFileSync } from 'node:child_process'
 import path from 'node:path'
 import fs from 'node:fs'
 
-const portfolioScriptPath = path.resolve(__dirname, 'portfolio.ps1')
-
-const getPowerShellCommand = () => {
-  try {
-    execFileSync('pwsh', ['-NoProfile', '-Command', '$PSVersionTable.PSVersion.ToString()'], {
-      stdio: 'pipe',
-      encoding: 'utf8',
-    })
-    return 'pwsh'
-  } catch {
-    return 'powershell'
-  }
-}
-
-const renderPortfolioText = () => {
-  try {
-    return execFileSync(
-      getPowerShellCommand(),
-      [
-        '-NoProfile',
-        '-ExecutionPolicy',
-        'Bypass',
-        '-File',
-        portfolioScriptPath,
-      ],
-      {
-        cwd: __dirname,
-        stdio: 'pipe',
-        encoding: 'utf8',
-        env: {
-          ...process.env,
-          PORTFOLIO_PLAIN_OUTPUT: '1',
-        },
-      },
-    ).trimEnd()
-  } catch {
-    return fs.readFileSync(portfolioScriptPath, 'utf8').trimEnd()
-  }
-}
+const portfolioTextPath = path.resolve(__dirname, 'portfolio.ansi')
+const renderPortfolioText = () => fs.readFileSync(portfolioTextPath, 'utf8').trimEnd()
 
 const isCliRequest = (req: IncomingMessage) => {
   const userAgent = req.headers['user-agent'] ?? ''

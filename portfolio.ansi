@@ -1,0 +1,79 @@
+﻿[38;2;120;255;210m+------------------------------------------------------------------------------+[0m
+[38;2;120;255;210m|[0m             [1;97m MARIA | Developer / Filmmaking / Content Creation [0m              [38;2;120;255;210m|[0m
+[38;2;120;255;210m|[0m                          [38;2;180;180;180m welcome to my portfolio! [0m                          [38;2;120;255;210m|[0m
+[38;2;120;255;210m+------------------------------------------------------------------------------+[0m
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  PROFILE[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36mname        [0m Maria Hall
+  [1;36mfocus       [0m Programming, problem-solving, filmmaking, VFX
+  [1;36mstyle       [0m Creative tools, cute sites, visual projects
+  [1;36mstatus      [0m [32mOpen to cool projects and work[0m
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  ABOUT[0m
+[38;2;180;120;255m==============================================================================[0m
+  I love making projects that solve problems and look fun!
+  websites, tools, video creation, graphics,
+  and interactive ideas are the kind of work I enjoy most.
+  Check out my GitHub at ]8;;https://github.com/theminji\github.com/theminji]8;;\
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  SKILLS[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36mcode        [0m Python, Rust, HTML/CSS, scripting
+  [1;36mvideo       [0m Editing, motion graphics, post workflows
+  [1;36mvfx         [0m Compositing, visual polish, experimentation
+  [1;36mtools       [0m CLI workflows, automation, creative software
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  FEATURED PROJECTS[0m
+[38;2;180;120;255m==============================================================================[0m
+
+  [1;95mPortfolio[0m
+  [90mstack   [0m Tailwind / CSS / Cloud hosting
+  [90mabout   [0m You're looking at it now! I wanted something unique and fun to represent me.
+  [90mlink    [0m ]8;;https://airamx112.com\airamx112.com]8;;\
+
+  [1;95mVType[0m
+  [90mstack   [0m Rust / Python / AI
+  [90mabout   [0m Small tool for voice typing on Linux and Windows.
+            I was tired of not having accurate transcription tools on my computer,
+            so I made my own tool and open sourced it!
+  [90mlink    [0m ]8;;https://github.com/theminji/VType\github.com/theminji/VType]8;;\
+
+  [1;95mTTS MCP Server[0m
+  [90mstack   [0m Python / MCP / AI
+  [90mabout   [0m A simple text-to-speech MCP server for local AI to generate speech files with.
+            I was shocked that LM Studio didn't have any local TTS servers, so I created one.
+            It uses Supertonic-2 TTS for the backend, which runs faster than realtime!
+  [90mlink    [0m ]8;;https://github.com/theminji/tts-mcp\github.com/theminji/tts-mcp]8;;\
+
+  [1;95mLemod AI Discord moderator[0m
+  [90mstack   [0m Python / Discord.py / OpenAI Moderation Toolkit
+  [90mabout   [0m I created a Discord bot that utilizes the OpenAI moderation toolkit to automatically
+            moderate users, and also allows for admin command using natural language
+            via LLM tool calls. This bot was developed specifically for the MattVidPro AI Discord server.
+  [90mlink    [0m ]8;;https://discord.gg/mattvidpro\discord.gg/mattvidpro]8;;\
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  NOW[0m
+[38;2;180;120;255m==============================================================================[0m
+  [32m*[0m exploring creative coding
+  [36m*[0m creating ai models
+  [35m*[0m mixing dev + film + VFX work
+
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  CONTACT[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36memail       [0m [36mmaria.a.hall.112@gmail.com[0m
+  [1;36mgithub      [0m [36m]8;;https://github.com/theminji\github.com/theminji]8;;\[0m
+  [1;36msite        [0m [36m]8;;https://airamx112.com\airamx112.com]8;;\[0m
+  [1;36mstatus      [0m Send me a message on Discord if you are interested! @theminji
+
+[38;2;255;120;180m==============================================================================[0m
+  [1;97mthanks for visiting my portfolio![0m
+[38;2;255;120;180m==============================================================================[0m
+
+
