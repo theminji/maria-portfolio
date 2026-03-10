@@ -1,4 +1,3 @@
 # Portfolio website
 
-```bash
-npm run dev```
+[airamx112.com](https://airamx112.com)

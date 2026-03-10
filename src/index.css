@@ -30,13 +30,28 @@ body {
   }
 }
 
+@keyframes loader-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
 .animate-card-float {
   animation: card-float 6.5s ease-in-out infinite;
 }
 
+.loader-bob {
+  animation: loader-bob 2.2s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-name-drift,
-  .animate-card-float {
+  .animate-card-float,
+  .loader-bob {
     animation: none;
   }
 }
