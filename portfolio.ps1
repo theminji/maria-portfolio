@@ -59,7 +59,7 @@ function Add-VerticalPadding {
     }
 }
 
-function Flush-RenderLines {
+function Flush {
     if (-not $script:IsPlainOutput) {
         Clear-Host
         Add-VerticalPadding -ContentHeight $script:RenderLines.Count
@@ -223,4 +223,4 @@ Add-Line (C "38;2;255;120;180" (Line "="))
 Add-Line ("  " + (C "1;97" "thanks for visiting my portfolio!"))
 Add-Line (C "38;2;255;120;180" (Line "="))
 
-Flush-RenderLines
+Flush

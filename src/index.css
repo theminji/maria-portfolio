@@ -40,8 +40,22 @@ body {
   }
 }
 
+@keyframes blob-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(2deg);
+  }
+}
+
 .animate-card-float {
   animation: card-float 6.5s ease-in-out infinite;
+}
+
+.blob-float {
+  animation: blob-float 4.8s ease-in-out infinite;
 }
 
 .loader-bob {
@@ -51,6 +65,7 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .animate-name-drift,
   .animate-card-float,
+  .blob-float,
   .loader-bob {
     animation: none;
   }
