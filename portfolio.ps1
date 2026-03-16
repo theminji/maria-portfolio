@@ -207,6 +207,14 @@ Project `
     "via LLM tool calls. This bot was developed specifically for the MattVidPro AI Discord server." `
     (Link "discord.gg/mattvidpro" "https://discord.gg/mattvidpro")
 
+Project `
+    "OpenGoody-2 LLM" `
+    "Python / Unsloth / AI Training" `
+    "I fine tuned Qwen3.5 4b on my local hardware to replicate the closed source Goody-2 AI model." `
+    "The goal of the model is to safetymaxx the AI to prevent harmful responses," `
+    "but it is SOOO safetymaxxed that it refuses any prompt. That's the fun of the model." `
+    (Link "hf.co/theminji/OpenGoody-2" "https://huggingface.co/theminji/OpenGoody-2")
+
 Section "NOW"
 Add-Line ("  " + (C "32" "*") + " exploring creative coding")
 Add-Line ("  " + (C "36" "*") + " creating ai models")

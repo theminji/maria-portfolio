@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "generate-portfolio": "node ./scripts/generate-portfolio.cjs",
+    "build": "npm run generate-portfolio && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

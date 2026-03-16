@@ -1,4 +1,4 @@
-﻿[38;2;120;255;210m+------------------------------------------------------------------------------+[0m
+[38;2;120;255;210m+------------------------------------------------------------------------------+[0m
 [38;2;120;255;210m|[0m             [1;97m MARIA | Developer / Filmmaking / Content Creation [0m              [38;2;120;255;210m|[0m
 [38;2;120;255;210m|[0m                          [38;2;180;180;180m welcome to my portfolio! [0m                          [38;2;120;255;210m|[0m
 [38;2;120;255;210m+------------------------------------------------------------------------------+[0m
@@ -56,6 +56,13 @@
             moderate users, and also allows for admin command using natural language
             via LLM tool calls. This bot was developed specifically for the MattVidPro AI Discord server.
   [90mlink    [0m ]8;;https://discord.gg/mattvidpro\discord.gg/mattvidpro]8;;\
+
+  [1;95mOpenGoody-2 LLM[0m
+  [90mstack   [0m Python / Unsloth / AI Training
+  [90mabout   [0m I fine tuned Qwen3.5 4b on my local hardware to replicate the closed source Goody-2 AI model.
+            The goal of the model is to safetymaxx the AI to prevent harmful responses,
+            but it is SOOO safetymaxxed that it refuses any prompt. That's the fun of the model.
+  [90mlink    [0m ]8;;https://huggingface.co/theminji/OpenGoody-2\hf.co/theminji/OpenGoody-2]8;;\
 
 [38;2;180;120;255m==============================================================================[0m
 [1;97m  NOW[0m
