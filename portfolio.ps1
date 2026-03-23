@@ -127,6 +127,34 @@ function Project {
     Add-Line ("  " + (C "90" "link    ") + " " + $link)
 }
 
+function ProfileLink {
+    param(
+        [Parameter(ValueFromRemainingArguments = $true)]
+        [string[]]$Lines
+    )
+
+    if ($Lines.Count -lt 3) {
+        Add-Line "ProfileLink needs 3 lines: site name, link, description"
+        return
+    }
+
+    $siteName = $Lines[0]
+    $link = $Lines[1]
+
+    Add-Line ""
+    Add-Line ("  " + (C "1;94" $siteName))
+    Add-Line ("  " + (C "90" "link    ") + " " + $link)
+
+    for ($i = 2; $i -lt $Lines.Count; $i++) {
+        if ($i -eq 2) {
+            Add-Line ("  " + (C "90" "about   ") + " " + $Lines[$i])
+        }
+        else {
+            Add-Line ("  " + (" " * 10) + $Lines[$i])
+        }
+    }
+}
+
 $width = Get-RenderWidth
 $topbot = "+" + ("-" * ($width - 2)) + "+"
 
@@ -175,6 +203,32 @@ KV "code"   "Python, Rust, HTML/CSS, scripting"
 KV "video"  "Editing, motion graphics, post workflows"
 KV "vfx"    "Compositing, visual polish, experimentation"
 KV "tools"  "CLI workflows, automation, creative software"
+
+Section "LINKS"
+ProfileLink `
+    "GitHub" `
+    (Link "github.com/theminji" "https://github.com/theminji") `
+    "Code, experiments, and open source projects."
+
+ProfileLink `
+    "Website" `
+    (Link "airamx112.com" "https://airamx112.com") `
+    "My main portfolio site and project hub."
+
+ProfileLink `
+    "YouTube" `
+    (Link "youtube.com/@airamx112" "https://www.youtube.com/@airamx112") `
+    "My YouTube channel where I post my filmmaking and VFX work."
+
+ProfileLink `
+    "HuggingFace" `
+    (Link "hf.co/theminji" "https://huggingface.co/theminji") `
+    "This is where I post my AI models and datasets."
+
+ProfileLink `
+    "Discord" `
+    "@theminji" `
+    "Best place to message me directly about projects or collabs."
 
 Section "FEATURED PROJECTS"
 Project `
