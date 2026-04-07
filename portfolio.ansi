@@ -1,121 +1,121 @@
-+----------------------------------------------------------------------------+
-|             MARIA | Developer / Filmmaking / Content Creation              |
-|                          welcome to my portfolio!                          |
-+----------------------------------------------------------------------------+
+[38;2;120;255;210m+----------------------------------------------------------------------------+[0m
+[38;2;120;255;210m|[0m            [1;97m MARIA | Developer / Filmmaking / Content Creation [0m             [38;2;120;255;210m|[0m
+[38;2;120;255;210m|[0m                         [38;2;180;180;180m welcome to my portfolio! [0m                         [38;2;120;255;210m|[0m
+[38;2;120;255;210m+----------------------------------------------------------------------------+[0m
 
-==============================================================================
-  PROFILE
-==============================================================================
-  name         Maria Hall
-  focus        Programming, problem-solving, filmmaking, VFX
-  style        Creative tools, cute sites, visual projects
-  status       Open to cool projects and work
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  PROFILE[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36mname        [0m Maria Hall
+  [1;36mfocus       [0m Programming, problem-solving, filmmaking, VFX
+  [1;36mstyle       [0m Creative tools, cute sites, visual projects
+  [1;36mstatus      [0m [32mOpen to cool projects and work[0m
 
-==============================================================================
-  ABOUT
-==============================================================================
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  ABOUT[0m
+[38;2;180;120;255m==============================================================================[0m
   I love making projects that solve problems and look fun!
   websites, tools, video creation, graphics,
   and interactive ideas are the kind of work I enjoy most.
-  Check out my GitHub at github.com/theminji
+  Check out my GitHub at ]8;;https://github.com/theminji\github.com/theminji]8;;\
 
-==============================================================================
-  SKILLS
-==============================================================================
-  code         Python, Rust, HTML/CSS, scripting
-  video        Editing, motion graphics, post workflows
-  vfx          Compositing, visual polish, experimentation
-  tools        CLI workflows, automation, creative software
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  SKILLS[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36mcode        [0m Python, Rust, HTML/CSS, scripting
+  [1;36mvideo       [0m Editing, motion graphics, post workflows
+  [1;36mvfx         [0m Compositing, visual polish, experimentation
+  [1;36mtools       [0m CLI workflows, automation, creative software
 
-==============================================================================
-  CERTIFICATIONS
-==============================================================================
-  * Nvidia Intro to Deep Learning
-  * Adobe Certified Graphic Designer
-  * Adobe Photoshop
-  * Adobe Illustrator
-  * Adobe InDesign
-  * Adobe Premiere Pro
-  * Adobe After Effects
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  CERTIFICATIONS[0m
+[38;2;180;120;255m==============================================================================[0m
+  [38;2;255;170;210m*[0m Nvidia Intro to Deep Learning
+  [38;2;255;170;210m*[0m Adobe Certified Graphic Designer
+  [38;2;255;170;210m*[0m Adobe Photoshop
+  [38;2;255;170;210m*[0m Adobe Illustrator
+  [38;2;255;170;210m*[0m Adobe InDesign
+  [38;2;255;170;210m*[0m Adobe Premiere Pro
+  [38;2;255;170;210m*[0m Adobe After Effects
 
-==============================================================================
-  LINKS
-==============================================================================
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  LINKS[0m
+[38;2;180;120;255m==============================================================================[0m
 
-  GitHub
-  link     github.com/theminji
-  about    Code, experiments, and open source projects.
+  [1;94mGitHub[0m
+  [90mlink    [0m ]8;;https://github.com/theminji\github.com/theminji]8;;\
+  [90mabout   [0m Code, experiments, and open source projects.
 
-  Website
-  link     airamx112.com
-  about    My main portfolio site and project hub.
+  [1;94mWebsite[0m
+  [90mlink    [0m ]8;;https://airamx112.com\airamx112.com]8;;\
+  [90mabout   [0m My main portfolio site and project hub.
 
-  YouTube
-  link     youtube.com/@airamx112
-  about    My YouTube channel where I post my filmmaking and VFX work.
+  [1;94mYouTube[0m
+  [90mlink    [0m ]8;;https://www.youtube.com/@airamx112\youtube.com/@airamx112]8;;\
+  [90mabout   [0m My YouTube channel where I post my filmmaking and VFX work.
 
-  HuggingFace
-  link     hf.co/theminji
-  about    This is where I post my AI models and datasets.
+  [1;94mHuggingFace[0m
+  [90mlink    [0m ]8;;https://huggingface.co/theminji\hf.co/theminji]8;;\
+  [90mabout   [0m This is where I post my AI models and datasets.
 
-  Discord
-  link     @theminji
-  about    Best place to message me directly about projects or collabs.
+  [1;94mDiscord[0m
+  [90mlink    [0m @theminji
+  [90mabout   [0m Best place to message me directly about projects or collabs.
 
-==============================================================================
-  FEATURED PROJECTS
-==============================================================================
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  FEATURED PROJECTS[0m
+[38;2;180;120;255m==============================================================================[0m
 
-  Portfolio
-  stack    Tailwind / CSS / Cloud hosting
-  about    You're looking at it now! I wanted something unique and fun to represent me.
-  link     airamx112.com
+  [1;95mPortfolio[0m
+  [90mstack   [0m Tailwind / CSS / Cloud hosting
+  [90mabout   [0m You're looking at it now! I wanted something unique and fun to represent me.
+  [90mlink    [0m ]8;;https://airamx112.com\airamx112.com]8;;\
 
-  VType
-  stack    Rust / Python / AI
-  about    Small tool for voice typing on Linux and Windows.
+  [1;95mVType[0m
+  [90mstack   [0m Rust / Python / AI
+  [90mabout   [0m Small tool for voice typing on Linux and Windows.
             I was tired of not having accurate transcription tools on my computer,
             so I made my own tool and open sourced it!
-  link     github.com/theminji/VType
+  [90mlink    [0m ]8;;https://github.com/theminji/VType\github.com/theminji/VType]8;;\
 
-  TTS MCP Server
-  stack    Python / MCP / AI
-  about    A simple text-to-speech MCP server for local AI to generate speech files with.
+  [1;95mTTS MCP Server[0m
+  [90mstack   [0m Python / MCP / AI
+  [90mabout   [0m A simple text-to-speech MCP server for local AI to generate speech files with.
             I was shocked that LM Studio didn't have any local TTS servers, so I created one.
             It uses Supertonic-2 TTS for the backend, which runs faster than realtime!
-  link     github.com/theminji/tts-mcp
+  [90mlink    [0m ]8;;https://github.com/theminji/tts-mcp\github.com/theminji/tts-mcp]8;;\
 
-  Lemod AI Discord moderator
-  stack    Python / Discord.py / OpenAI Moderation Toolkit
-  about    I created a Discord bot that utilizes the OpenAI moderation toolkit to automatically
+  [1;95mLemod AI Discord moderator[0m
+  [90mstack   [0m Python / Discord.py / OpenAI Moderation Toolkit
+  [90mabout   [0m I created a Discord bot that utilizes the OpenAI moderation toolkit to automatically
             moderate users, and also allows for admin command using natural language
             via LLM tool calls. This bot was developed specifically for the MattVidPro AI Discord server.
-  link     discord.gg/mattvidpro
+  [90mlink    [0m ]8;;https://discord.gg/mattvidpro\discord.gg/mattvidpro]8;;\
 
-  OpenGoody-2 LLM
-  stack    Python / Unsloth / AI Training
-  about    I fine tuned Qwen3.5 4b on my local hardware to replicate the closed source Goody-2 AI model.
+  [1;95mOpenGoody-2 LLM[0m
+  [90mstack   [0m Python / Unsloth / AI Training
+  [90mabout   [0m I fine tuned Qwen3.5 4b on my local hardware to replicate the closed source Goody-2 AI model.
             The goal of the model is to safetymaxx the AI to prevent harmful responses,
             but it is SOOO safetymaxxed that it refuses any prompt. That's the fun of the model.
-  link     hf.co/theminji/OpenGoody-2
+  [90mlink    [0m ]8;;https://huggingface.co/theminji/OpenGoody-2\hf.co/theminji/OpenGoody-2]8;;\
 
-==============================================================================
-  NOW
-==============================================================================
-  * exploring creative coding
-  * creating ai models
-  * mixing dev + film + VFX work
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  NOW[0m
+[38;2;180;120;255m==============================================================================[0m
+  [32m*[0m exploring creative coding
+  [36m*[0m creating ai models
+  [35m*[0m mixing dev + film + VFX work
 
-==============================================================================
-  CONTACT
-==============================================================================
-  email        maria.a.hall.112@gmail.com
-  github       github.com/theminji
-  site         airamx112.com
-  status       Send me a message on Discord if you are interested! @theminji
+[38;2;180;120;255m==============================================================================[0m
+[1;97m  CONTACT[0m
+[38;2;180;120;255m==============================================================================[0m
+  [1;36memail       [0m [36mmaria.a.hall.112@gmail.com[0m
+  [1;36mgithub      [0m [36m]8;;https://github.com/theminji\github.com/theminji]8;;\[0m
+  [1;36msite        [0m [36m]8;;https://airamx112.com\airamx112.com]8;;\[0m
+  [1;36mstatus      [0m Send me a message on Discord if you are interested! @theminji
 
-==============================================================================
-  thanks for visiting my portfolio!
-==============================================================================
+[38;2;255;120;180m==============================================================================[0m
+  [1;97mthanks for visiting my portfolio![0m
+[38;2;255;120;180m==============================================================================[0m
 
 
