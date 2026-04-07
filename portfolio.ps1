@@ -155,6 +155,17 @@ function ProfileLink {
     }
 }
 
+function Certification {
+    param(
+        [Parameter(ValueFromRemainingArguments = $true)]
+        [string[]]$Lines
+    )
+
+    foreach ($line in $Lines) {
+        Add-Line ("  " + (C "38;2;255;170;210" "*") + " " + $line)
+    }
+}
+
 $width = Get-RenderWidth
 $topbot = "+" + ("-" * ($width - 2)) + "+"
 
@@ -203,6 +214,16 @@ KV "code"   "Python, Rust, HTML/CSS, scripting"
 KV "video"  "Editing, motion graphics, post workflows"
 KV "vfx"    "Compositing, visual polish, experimentation"
 KV "tools"  "CLI workflows, automation, creative software"
+
+Section "CERTIFICATIONS"
+Certification `
+    "Nvidia Intro to Deep Learning" `
+    "Adobe Certified Graphic Designer" `
+    "Adobe Photoshop" `
+    "Adobe Illustrator" `
+    "Adobe InDesign" `
+    "Adobe Premiere Pro" `
+    "Adobe After Effects"
 
 Section "LINKS"
 ProfileLink `

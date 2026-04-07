@@ -27,6 +27,16 @@ const skills = [
   'Video production'
 ]
 
+const certifications = [
+  'Nvidia Intro to Deep Learning',
+  'Adobe Certified Graphic Designer',
+  'Adobe Photoshop',
+  'Adobe Illustrator',
+  'Adobe InDesign',
+  'Adobe Premiere Pro',
+  'Adobe After Effects',
+]
+
 const socialLinks = [
   {
     site: 'GitHub',
@@ -266,6 +276,21 @@ function WebPortfolioView() {
             </div>
           </SectionCard>
 
+          <SectionCard title="Certifications">
+            <ul className="grid gap-3">
+              {certifications.map((certification) => (
+                <li
+                  key={certification}
+                  className="rounded-2xl border border-pink-200/70 bg-white/80 px-4 py-3 text-sm text-pink-900 shadow-sm"
+                >
+                  {certification}
+                </li>
+              ))}
+            </ul>
+          </SectionCard>
+        </div>
+
+        <div className="grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
           <SectionCard title="Links">
             <div className="grid gap-3">
               {socialLinks.map((link) => (
